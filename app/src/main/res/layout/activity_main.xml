@@ -16,15 +16,25 @@
         android:inputType="textPersonName"
         android:hint="find your item"/>
 
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_state"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="100dp"
         app:srcCompat="@drawable/ic_connect" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_find"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Finding" />
